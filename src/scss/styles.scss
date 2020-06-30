@@ -1,0 +1,27 @@
+/*! `Custom` Bootstrap 4 theme */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css);
+
+$enable-grid-classes:true;
+$primary:#660114;
+$secondary:#fcbd56;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343434;
+$spacer:1.8rem;
+$border-width:1px;
+$btn-border-radius:.2rem;
+
+$font-size-base: 1.1rem !default;
+
+/*! Import Bootstrap 4 variables */
+// @import "bootstrap/functions";
+@import "../../node_modules/bootstrap/scss/functions";
+// @import "bootstrap/variables";
+@import "../../node_modules/bootstrap/scss/variables";
+$body-color:$gray-900;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Add SASS theme customizations here..
